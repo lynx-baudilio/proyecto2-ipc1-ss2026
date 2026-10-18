@@ -1,0 +1,17 @@
+
+# Maven
+target/
+
+# NetBeans
+nbproject/private/
+nbactions.xml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*~
