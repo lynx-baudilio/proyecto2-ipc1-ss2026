@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package usac.cunoc.ipc1.bugsvscode;
 
-/**
- *
- * @author baudiliorr
- */
+import javax.swing.SwingUtilities;
+import usac.cunoc.ipc1.bugsvscode.frontend.MainFrame;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SwingUtilities.invokeLater(() -> {
+            MainFrame window = new MainFrame();
+            window.setVisible(true);
+        });
     }
 }
